@@ -1,0 +1,97 @@
+[{
+        "id": 1,
+        "name": "Bayonet Knife",
+        "image": "https://www.csgodatabase.com/images/knives/Bayonet.png"
+    },
+    {
+        "id": 2,
+        "name": "Bowie Knife",
+        "image": "https://www.csgodatabase.com/images/knives/Bowie_Knife.png"
+    },
+
+    {
+        "id": 3,
+        "name": "Butterfly Knife",
+        "image": "https://www.csgodatabase.com/images/knives/Butterfly_Knife.png"
+    },
+    {
+        "id": 4,
+        "name": "Classic Knife",
+        "image": "https://www.csgodatabase.com/images/knives/Classic_Knife.png"
+    },
+    {
+        "id": 5,
+        "name": "Falchion Knife",
+        "image": "https://www.csgodatabase.com/images/knives/Falchion_Knife.png"
+    },
+    {
+        "id": 6,
+        "name": "Flip Knife",
+        "image": "https://www.csgodatabase.com/images/knives/Flip_Knife.png"
+    },
+    {
+        "id": 7,
+        "name": "Gut Knife",
+        "image": "https://www.csgodatabase.com/images/knives/Gut_Knife.png"
+    },
+    {
+        "id": 8,
+        "name": "Huntsman Knife",
+        "image": "https://www.csgodatabase.com/images/knives/Huntsman_Knife.png"
+    },
+    {
+        "id": 9,
+        "name": "Karambit",
+        "image": "https://www.csgodatabase.com/images/knives/Karambit.png"
+    },
+    {
+        "id": 10,
+        "name": "M9 Bayonet",
+        "image": "https://www.csgodatabase.com/images/knives/M9_Bayonet.png"
+    },
+    {
+        "id": 11,
+        "name": "Navaja Knife",
+        "image": "https://www.csgodatabase.com/images/knives/Navaja_Knife.png"
+    },
+    {
+        "id": 12,
+        "name": "Nomand Knife",
+        "image": "https://www.csgodatabase.com/images/knives/Nomand_Knife.png"
+    },
+    {
+        "id": 13,
+        "name": "Paracord Knife",
+        "image": "https://www.csgodatabase.com/images/knives/Paracord_Knife.png"
+    },
+    {
+        "id": 14,
+        "name": "Shadow Daggers",
+        "image": "https://www.csgodatabase.com/images/knives/Shadow_Daggers.png"
+    },
+    {
+        "id": 15,
+        "name": "Skeleton Knife",
+        "image": "https://www.csgodatabase.com/images/knives/Skeleton_Knife.png"
+    },
+    {
+        "id": 16,
+        "name": "Stiletto Knife",
+        "image": "https://www.csgodatabase.com/images/knives/Stiletto_Knife.png"
+    },
+    {
+        "id": 17,
+        "name": "Survival Knife",
+        "image": "https://www.csgodatabase.com/images/knives/Survival_Knife.png"
+    },
+    {
+        "id": 18,
+        "name": "Talon Knife",
+        "image": "https://www.csgodatabase.com/images/knives/Talon_Knife.png"
+    },
+    {
+        "id": 19,
+        "name": "Ursus Knife",
+        "image": "https://www.csgodatabase.com/images/knives/Ursus_Knife.png"
+    }
+]
