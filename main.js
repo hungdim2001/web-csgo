@@ -62,23 +62,26 @@ function show(id) {
   save = id;
 }
 // xu ly menu respon
-var menuBtn = document.querySelector('.menuBtn');
-var menuResponsive = document.querySelector('.menuResponsive');
-var modal = document.querySelector('.modal')
-var modal_overlay = document.querySelector('.modal_overlay')
-var closeMenuResponsive = document.querySelector('.closeMenuResponsive');
-menuBtn.onclick= (e)=>{
+var menuBtn = document.querySelector(".menuBtn");
+var menuResponsive = document.querySelector(".menuResponsive");
+var modal = document.querySelector(".modal");
+var modal_overlay = document.querySelector(".modal_overlay");
+var closeMenuResponsive = document.querySelector(".closeMenuResponsive");
+menuBtn.onclick = (e) => {
   menuResponsive.style.left = 0;
-  modal.classList.add('active');
-  modal_overlay.classList.add('active');
-}
-modal.onclick = ()=>{
-  menuResponsive.style.left = '-100%'
-  modal.classList.remove('active');
-  modal_overlay.classList.remove('active');
-}
-closeMenuResponsive.onclick = ()=>{
-  menuResponsive.style.left = '-100%'
-  modal.classList.remove('active');
-  modal_overlay.classList.remove('active');
-}
+  setTimeout(() => {
+    modal.classList.add("active");
+    modal_overlay.classList.add("active");
+  }, 500);
+};
+modal.onclick = () => {
+  menuResponsive.style.left = "-100%";
+
+  modal_overlay.classList.remove("active");
+  modal.classList.remove("active");
+};
+closeMenuResponsive.onclick = () => {
+  menuResponsive.style.left = "-100%";
+  modal.classList.remove("active");
+  modal_overlay.classList.remove("active");
+};
