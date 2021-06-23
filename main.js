@@ -31,7 +31,6 @@ itemEle.forEach((item, index, arr) => {
 });
 
 window.addEventListener("click", (e) => {
-  console.log(e.target.matches(".topBanner_item"));
   if (
     !e.target.matches(".topBanner_item") &&
     !e.target.matches(".dropDown") &&
@@ -61,4 +60,25 @@ function show(id) {
     .querySelector(".listItem")
     .classList.toggle("active");
   save = id;
+}
+// xu ly menu respon
+var menuBtn = document.querySelector('.menuBtn');
+var menuResponsive = document.querySelector('.menuResponsive');
+var modal = document.querySelector('.modal')
+var modal_overlay = document.querySelector('.modal_overlay')
+var closeMenuResponsive = document.querySelector('.closeMenuResponsive');
+menuBtn.onclick= (e)=>{
+  menuResponsive.style.left = 0;
+  modal.classList.add('active');
+  modal_overlay.classList.add('active');
+}
+modal.onclick = ()=>{
+  menuResponsive.style.left = '-100%'
+  modal.classList.remove('active');
+  modal_overlay.classList.remove('active');
+}
+closeMenuResponsive.onclick = ()=>{
+  menuResponsive.style.left = '-100%'
+  modal.classList.remove('active');
+  modal_overlay.classList.remove('active');
 }
