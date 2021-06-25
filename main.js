@@ -75,13 +75,51 @@ menuBtn.onclick = (e) => {
   }, 500);
 };
 modal.onclick = () => {
-  menuResponsive.style.left = "-100%";
-
   modal_overlay.classList.remove("active");
   modal.classList.remove("active");
+  listItemMenuResponsive.style.left = "100%";
+  menuResponsive.style.left = "-100%";
+  setTimeout(() => {
+    primaryMenu.style.display = "block";
+    socialIcon.style.display = "flex";
+  }, 500);
 };
 closeMenuResponsive.onclick = () => {
-  menuResponsive.style.left = "-100%";
-  modal.classList.remove("active");
   modal_overlay.classList.remove("active");
+  modal.classList.remove("active"); 
+  listItemMenuResponsive.style.left = "100%";
+  menuResponsive.style.left = "-100%";
+  setTimeout(() => {
+    primaryMenu.style.display = "block";
+    socialIcon.style.display = "flex";
+  }, 500);
+};
+
+//xu ly click menu responsive
+var menuResponsiveItem = document.querySelectorAll(
+  ".menuResponsive .listItemMenuRespon~ul li"
+);
+var listItemMenuResponsive = document.querySelector(".listItemMenuRespon");
+var primaryMenu = document.querySelector(
+  ".menuResponsive .listItemMenuRespon~ul"
+);
+var socialIcon = document.querySelector(".social");
+var backBtn = document.querySelector(".backBtn");
+console.log(primaryMenu);
+menuResponsiveItem.forEach((item) => {
+  item.onclick = () => {
+    listItemMenuResponsive.style.left = 0;
+    listItemMenuResponsive.style.visibility = "visible";
+
+    primaryMenu.style.display = "none";
+    socialIcon.style.display = "none";
+  };
+});
+console.log(menuResponsiveItem);
+backBtn.onclick = () => {
+  listItemMenuResponsive.style.visibility = "hidden";
+  listItemMenuResponsive.style.left = "100%";
+
+  primaryMenu.style.display = "block";
+  socialIcon.style.display = "flex";
 };
