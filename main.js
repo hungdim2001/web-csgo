@@ -105,7 +105,6 @@ var primaryMenu = document.querySelector(
 );
 var socialIcon = document.querySelector(".social");
 var backBtn = document.querySelector(".backBtn");
-console.log(primaryMenu);
 menuResponsiveItem.forEach((item) => {
   item.onclick = () => {
     listItemMenuResponsive.style.left = 0;
@@ -115,7 +114,6 @@ menuResponsiveItem.forEach((item) => {
     socialIcon.style.display = "none";
   };
 });
-console.log(menuResponsiveItem);
 backBtn.onclick = () => {
   listItemMenuResponsive.style.visibility = "hidden";
   listItemMenuResponsive.style.left = "100%";
